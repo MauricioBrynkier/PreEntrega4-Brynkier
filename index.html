@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de KDA</title>
+  </head>
+  <body>
+    <h1>Calculadora de promedio de KDA</h1>
+    <section>
+      <h2>Ingresar Promedio</h2>
+      <label for="juego">Juego:</label>
+      <input
+        type="text"
+        placeholder="Nombre del Juego"
+        id="juego-input"
+      /><br />
+      <label for="cantidad">Cantidad de Promedios:</label>
+      <input type="number" id="cantidad" value="0" min="0" />
+      <h2>KDA</h2>
+      <ul id="KDAs-container">
+        <!--    <li>
+          <input type="number" class="K" placeholder="K" />
+          <input type="number" class="D" placeholder="D" />
+          <input type="number" class="A" placeholder="A" />
+        </li> -->
+      </ul>
+      <button id="calcular-btn">Calcular</button>
+    </section>
+    <section>
+      <h2>Promedios anteriores</h2>
+      <ul id="promedios-anteriores"></ul>
+    </section>
+    <script src="proyecto2.js"></script>
+  </body>
+</html>
